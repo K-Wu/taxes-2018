@@ -290,14 +290,15 @@ def merge(overlay, basename):
     return form
 
 
-def write_fillable_pdf(basename, data_dict, keyfile):
+def write_fillable_pdf(basename, data_dict, keyfile, identifier=''):
+    # Use identifier to differentiate between different filled forms, e.g., fatca forms
     print('[+] %s' % (basename))
     # Generate our layer of text
     canvas = get_overlay(basename, data_dict, keyfile)
     # Merge it with the original PDF
     form = merge(canvas, basename)
     # Write out the result
-    output_pdf_path = os.path.join('filled', basename)
+    output_pdf_path = os.path.join('filled', identifier + '.' + basename)
     with open(output_pdf_path, 'wb') as f:
         f.write(form.read())
     # Circle back and handle grouped buttons
