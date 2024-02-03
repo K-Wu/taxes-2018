@@ -335,6 +335,8 @@ def dump_fields(fp):
                         print("found!")
                     if key == x00_key_example:
                         print("found!found!")
+                    if key == "FEFF00660031005F00300034005B0030005D":
+                        print("found!found!found!")
                 else:
                     print ('NOT ANNOT FIELD KEY')
                     if annotation['/AS']:
