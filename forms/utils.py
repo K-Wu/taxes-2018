@@ -303,6 +303,11 @@ def write_fillable_pdf(basename, data_dict, keyfile):
     # Circle back and handle grouped buttons
     do_buttons(basename, data_dict, keyfile)
 
+with open('D:/impact-repos/taxes-2018/keyfiles/f8938.p2.keys', encoding='utf-8') as fd:
+    x00_key_example_fractions = fd.readlines()[0].split(' ')[-2:]
+    x00_key_example = x00_key_example_fractions[0]
+    #x00_key_example = ' '.join(x00_key_example_fractions)
+
 
 def dump_fields(fp):
     '''
@@ -324,6 +329,12 @@ def dump_fields(fp):
                     key = annotation[ANNOT_FIELD_KEY][1:-1]
                     type = annotation[ANNOT_FIELD_TYPE]
                     print (key, type)
+                    #print([c for c in key])
+                    #print([c for c in x00_key_example])
+                    if key == "þÿ\x00f\x002\x00_\x003\x000\x00[\x000\x00]":
+                        print("found!")
+                    if key == x00_key_example:
+                        print("found!found!")
                 else:
                     print ('NOT ANNOT FIELD KEY')
                     if annotation['/AS']:
