@@ -1,0 +1,2271 @@
+{
+    "latestNav": 1.10033363,
+    "latestProfitDate": 1710172800,
+    "dataList": [
+        {
+            "profitDate": 1651161600,
+            "nav": 0.99975708,
+            "dailyProfitRate": -0.00024292
+        },
+        {
+            "profitDate": 1651680000,
+            "nav": 1.00228802,
+            "dailyProfitRate": 0.00253156
+        },
+        {
+            "profitDate": 1651766400,
+            "nav": 0.98204854,
+            "dailyProfitRate": -0.02019328
+        },
+        {
+            "profitDate": 1652025600,
+            "nav": 0.97698475,
+            "dailyProfitRate": -0.00515635
+        },
+        {
+            "profitDate": 1652112000,
+            "nav": 0.97703297,
+            "dailyProfitRate": 0.00004935
+        },
+        {
+            "profitDate": 1652198400,
+            "nav": 0.98580765,
+            "dailyProfitRate": 0.00898095
+        },
+        {
+            "profitDate": 1652284800,
+            "nav": 0.97689655,
+            "dailyProfitRate": -0.00903939
+        },
+        {
+            "profitDate": 1652371200,
+            "nav": 0.98165611,
+            "dailyProfitRate": 0.00487212
+        },
+        {
+            "profitDate": 1652630400,
+            "nav": 0.98846685,
+            "dailyProfitRate": 0.00693801
+        },
+        {
+            "profitDate": 1652716800,
+            "nav": 0.99112757,
+            "dailyProfitRate": 0.00269177
+        },
+        {
+            "profitDate": 1652803200,
+            "nav": 0.99205816,
+            "dailyProfitRate": 0.00093892
+        },
+        {
+            "profitDate": 1652889600,
+            "nav": 0.97930597,
+            "dailyProfitRate": -0.01285427
+        },
+        {
+            "profitDate": 1652976000,
+            "nav": 0.99238035,
+            "dailyProfitRate": 0.01335065
+        },
+        {
+            "profitDate": 1653235200,
+            "nav": 0.98881216,
+            "dailyProfitRate": -0.00359558
+        },
+        {
+            "profitDate": 1653321600,
+            "nav": 0.97482831,
+            "dailyProfitRate": -0.01414208
+        },
+        {
+            "profitDate": 1653408000,
+            "nav": 0.97512673,
+            "dailyProfitRate": 0.00030613
+        },
+        {
+            "profitDate": 1653494400,
+            "nav": 0.98031489,
+            "dailyProfitRate": 0.0053205
+        },
+        {
+            "profitDate": 1653580800,
+            "nav": 0.98882611,
+            "dailyProfitRate": 0.00868212
+        },
+        {
+            "profitDate": 1653840000,
+            "nav": 1.00541959,
+            "dailyProfitRate": 0.016781
+        },
+        {
+            "profitDate": 1653926400,
+            "nav": 1.01340889,
+            "dailyProfitRate": 0.00794624
+        },
+        {
+            "profitDate": 1654012800,
+            "nav": 1.00954804,
+            "dailyProfitRate": -0.00380977
+        },
+        {
+            "profitDate": 1654099200,
+            "nav": 1.00918116,
+            "dailyProfitRate": -0.00036341
+        },
+        {
+            "profitDate": 1654444800,
+            "nav": 1.03051539,
+            "dailyProfitRate": 0.02114014
+        },
+        {
+            "profitDate": 1654531200,
+            "nav": 1.0267037,
+            "dailyProfitRate": -0.00369883
+        },
+        {
+            "profitDate": 1654617600,
+            "nav": 1.0350848,
+            "dailyProfitRate": 0.00816312
+        },
+        {
+            "profitDate": 1654704000,
+            "nav": 1.02610327,
+            "dailyProfitRate": -0.0086771
+        },
+        {
+            "profitDate": 1654790400,
+            "nav": 1.03070956,
+            "dailyProfitRate": 0.00448911
+        },
+        {
+            "profitDate": 1655049600,
+            "nav": 1.0148259,
+            "dailyProfitRate": -0.01541042
+        },
+        {
+            "profitDate": 1655136000,
+            "nav": 1.00974658,
+            "dailyProfitRate": -0.00500511
+        },
+        {
+            "profitDate": 1655222400,
+            "nav": 1.01850374,
+            "dailyProfitRate": 0.00867263
+        },
+        {
+            "profitDate": 1655308800,
+            "nav": 1.02198942,
+            "dailyProfitRate": 0.00342236
+        },
+        {
+            "profitDate": 1655395200,
+            "nav": 1.01940534,
+            "dailyProfitRate": -0.00252849
+        },
+        {
+            "profitDate": 1655654400,
+            "nav": 1.02545162,
+            "dailyProfitRate": 0.00593119
+        },
+        {
+            "profitDate": 1655740800,
+            "nav": 1.02359074,
+            "dailyProfitRate": -0.00181469
+        },
+        {
+            "profitDate": 1655827200,
+            "nav": 1.01781847,
+            "dailyProfitRate": -0.00563923
+        },
+        {
+            "profitDate": 1655913600,
+            "nav": 1.02898697,
+            "dailyProfitRate": 0.01097297
+        },
+        {
+            "profitDate": 1656000000,
+            "nav": 1.04225856,
+            "dailyProfitRate": 0.01289773
+        },
+        {
+            "profitDate": 1656259200,
+            "nav": 1.06099992,
+            "dailyProfitRate": 0.01798148
+        },
+        {
+            "profitDate": 1656345600,
+            "nav": 1.06732388,
+            "dailyProfitRate": 0.00596038
+        },
+        {
+            "profitDate": 1656432000,
+            "nav": 1.0495253,
+            "dailyProfitRate": -0.01667589
+        },
+        {
+            "profitDate": 1656518400,
+            "nav": 1.06415122,
+            "dailyProfitRate": 0.01393574
+        },
+        {
+            "profitDate": 1656604800,
+            "nav": 1.0598918,
+            "dailyProfitRate": -0.00400264
+        },
+        {
+            "profitDate": 1656864000,
+            "nav": 1.06726436,
+            "dailyProfitRate": 0.00695596
+        },
+        {
+            "profitDate": 1656950400,
+            "nav": 1.06790598,
+            "dailyProfitRate": 0.00060118
+        },
+        {
+            "profitDate": 1657036800,
+            "nav": 1.05965143,
+            "dailyProfitRate": -0.00772966
+        },
+        {
+            "profitDate": 1657123200,
+            "nav": 1.06291742,
+            "dailyProfitRate": 0.00308214
+        },
+        {
+            "profitDate": 1657209600,
+            "nav": 1.06650588,
+            "dailyProfitRate": 0.00337606
+        },
+        {
+            "profitDate": 1657468800,
+            "nav": 1.05501439,
+            "dailyProfitRate": -0.0107749
+        },
+        {
+            "profitDate": 1657555200,
+            "nav": 1.04309817,
+            "dailyProfitRate": -0.01129484
+        },
+        {
+            "profitDate": 1657641600,
+            "nav": 1.04194436,
+            "dailyProfitRate": -0.00110613
+        },
+        {
+            "profitDate": 1657728000,
+            "nav": 1.04056675,
+            "dailyProfitRate": -0.00132216
+        },
+        {
+            "profitDate": 1657814400,
+            "nav": 1.03049083,
+            "dailyProfitRate": -0.00968311
+        },
+        {
+            "profitDate": 1658073600,
+            "nav": 1.04373929,
+            "dailyProfitRate": 0.01285646
+        },
+        {
+            "profitDate": 1658160000,
+            "nav": 1.04119583,
+            "dailyProfitRate": -0.00243687
+        },
+        {
+            "profitDate": 1658246400,
+            "nav": 1.05345179,
+            "dailyProfitRate": 0.01177104
+        },
+        {
+            "profitDate": 1658332800,
+            "nav": 1.05021245,
+            "dailyProfitRate": -0.00307497
+        },
+        {
+            "profitDate": 1658419200,
+            "nav": 1.05299401,
+            "dailyProfitRate": 0.00264857
+        },
+        {
+            "profitDate": 1658678400,
+            "nav": 1.04434593,
+            "dailyProfitRate": -0.00821285
+        },
+        {
+            "profitDate": 1658764800,
+            "nav": 1.0498387,
+            "dailyProfitRate": 0.00525954
+        },
+        {
+            "profitDate": 1658851200,
+            "nav": 1.04100196,
+            "dailyProfitRate": -0.00841724
+        },
+        {
+            "profitDate": 1658937600,
+            "nav": 1.05369078,
+            "dailyProfitRate": 0.01218905
+        },
+        {
+            "profitDate": 1659024000,
+            "nav": 1.04553763,
+            "dailyProfitRate": -0.00773771
+        },
+        {
+            "profitDate": 1659283200,
+            "nav": 1.05281545,
+            "dailyProfitRate": 0.00696084
+        },
+        {
+            "profitDate": 1659369600,
+            "nav": 1.03762245,
+            "dailyProfitRate": -0.01443083
+        },
+        {
+            "profitDate": 1659456000,
+            "nav": 1.03113224,
+            "dailyProfitRate": -0.00625488
+        },
+        {
+            "profitDate": 1659542400,
+            "nav": 1.04764932,
+            "dailyProfitRate": 0.01601839
+        },
+        {
+            "profitDate": 1659628800,
+            "nav": 1.05941455,
+            "dailyProfitRate": 0.01123012
+        },
+        {
+            "profitDate": 1659888000,
+            "nav": 1.05561655,
+            "dailyProfitRate": -0.00358499
+        },
+        {
+            "profitDate": 1659974400,
+            "nav": 1.05738886,
+            "dailyProfitRate": 0.00167893
+        },
+        {
+            "profitDate": 1660060800,
+            "nav": 1.04688976,
+            "dailyProfitRate": -0.00992928
+        },
+        {
+            "profitDate": 1660147200,
+            "nav": 1.06934429,
+            "dailyProfitRate": 0.02144881
+        },
+        {
+            "profitDate": 1660233600,
+            "nav": 1.06736316,
+            "dailyProfitRate": -0.00185266
+        },
+        {
+            "profitDate": 1660492800,
+            "nav": 1.07285112,
+            "dailyProfitRate": 0.0051416
+        },
+        {
+            "profitDate": 1660579200,
+            "nav": 1.07488423,
+            "dailyProfitRate": 0.00189505
+        },
+        {
+            "profitDate": 1660665600,
+            "nav": 1.0798598,
+            "dailyProfitRate": 0.00462893
+        },
+        {
+            "profitDate": 1660752000,
+            "nav": 1.06976056,
+            "dailyProfitRate": -0.00935236
+        },
+        {
+            "profitDate": 1660838400,
+            "nav": 1.06732078,
+            "dailyProfitRate": -0.00228068
+        },
+        {
+            "profitDate": 1661097600,
+            "nav": 1.06817083,
+            "dailyProfitRate": 0.00079643
+        },
+        {
+            "profitDate": 1661184000,
+            "nav": 1.05635503,
+            "dailyProfitRate": -0.01106171
+        },
+        {
+            "profitDate": 1661270400,
+            "nav": 1.04482921,
+            "dailyProfitRate": -0.01091094
+        },
+        {
+            "profitDate": 1661356800,
+            "nav": 1.05198152,
+            "dailyProfitRate": 0.00684544
+        },
+        {
+            "profitDate": 1661443200,
+            "nav": 1.0576837,
+            "dailyProfitRate": 0.00542042
+        },
+        {
+            "profitDate": 1661702400,
+            "nav": 1.04117053,
+            "dailyProfitRate": -0.01561257
+        },
+        {
+            "profitDate": 1661788800,
+            "nav": 1.03677037,
+            "dailyProfitRate": -0.00422617
+        },
+        {
+            "profitDate": 1661875200,
+            "nav": 1.03173814,
+            "dailyProfitRate": -0.00485375
+        },
+        {
+            "profitDate": 1661961600,
+            "nav": 1.02582302,
+            "dailyProfitRate": -0.00573317
+        },
+        {
+            "profitDate": 1662048000,
+            "nav": 1.02264123,
+            "dailyProfitRate": -0.00310169
+        },
+        {
+            "profitDate": 1662307200,
+            "nav": 1.01797451,
+            "dailyProfitRate": -0.0045634
+        },
+        {
+            "profitDate": 1662393600,
+            "nav": 1.02570284,
+            "dailyProfitRate": 0.00759187
+        },
+        {
+            "profitDate": 1662480000,
+            "nav": 1.02304745,
+            "dailyProfitRate": -0.00258885
+        },
+        {
+            "profitDate": 1662566400,
+            "nav": 1.02749582,
+            "dailyProfitRate": 0.00434816
+        },
+        {
+            "profitDate": 1662652800,
+            "nav": 1.03729795,
+            "dailyProfitRate": 0.00953982
+        },
+        {
+            "profitDate": 1662998400,
+            "nav": 1.04506112,
+            "dailyProfitRate": 0.00748403
+        },
+        {
+            "profitDate": 1663084800,
+            "nav": 1.02429676,
+            "dailyProfitRate": -0.01986904
+        },
+        {
+            "profitDate": 1663171200,
+            "nav": 1.0206748,
+            "dailyProfitRate": -0.00353604
+        },
+        {
+            "profitDate": 1663257600,
+            "nav": 1.00005113,
+            "dailyProfitRate": -0.02020592
+        },
+        {
+            "profitDate": 1663516800,
+            "nav": 0.99843879,
+            "dailyProfitRate": -0.00161226
+        },
+        {
+            "profitDate": 1663603200,
+            "nav": 1.00303502,
+            "dailyProfitRate": 0.00460342
+        },
+        {
+            "profitDate": 1663689600,
+            "nav": 0.99819574,
+            "dailyProfitRate": -0.00482464
+        },
+        {
+            "profitDate": 1663776000,
+            "nav": 0.98754593,
+            "dailyProfitRate": -0.01066905
+        },
+        {
+            "profitDate": 1663862400,
+            "nav": 0.98158851,
+            "dailyProfitRate": -0.00603255
+        },
+        {
+            "profitDate": 1664121600,
+            "nav": 0.97180812,
+            "dailyProfitRate": -0.00996384
+        },
+        {
+            "profitDate": 1664208000,
+            "nav": 0.98199574,
+            "dailyProfitRate": 0.01048316
+        },
+        {
+            "profitDate": 1664294400,
+            "nav": 0.97315209,
+            "dailyProfitRate": -0.00900579
+        },
+        {
+            "profitDate": 1664380800,
+            "nav": 0.98147545,
+            "dailyProfitRate": 0.00855299
+        },
+        {
+            "profitDate": 1664467200,
+            "nav": 0.96836062,
+            "dailyProfitRate": -0.01336236
+        },
+        {
+            "profitDate": 1665331200,
+            "nav": 0.94986485,
+            "dailyProfitRate": -0.01910009
+        },
+        {
+            "profitDate": 1665417600,
+            "nav": 0.95075549,
+            "dailyProfitRate": 0.00093766
+        },
+        {
+            "profitDate": 1665504000,
+            "nav": 0.95681348,
+            "dailyProfitRate": 0.00637176
+        },
+        {
+            "profitDate": 1665590400,
+            "nav": 0.95263685,
+            "dailyProfitRate": -0.00436515
+        },
+        {
+            "profitDate": 1665676800,
+            "nav": 0.97460827,
+            "dailyProfitRate": 0.02306379
+        },
+        {
+            "profitDate": 1665936000,
+            "nav": 0.96508267,
+            "dailyProfitRate": -0.00977377
+        },
+        {
+            "profitDate": 1666022400,
+            "nav": 0.97394459,
+            "dailyProfitRate": 0.00918254
+        },
+        {
+            "profitDate": 1666108800,
+            "nav": 0.96645933,
+            "dailyProfitRate": -0.00768551
+        },
+        {
+            "profitDate": 1666195200,
+            "nav": 0.96081168,
+            "dailyProfitRate": -0.00584365
+        },
+        {
+            "profitDate": 1666281600,
+            "nav": 0.95687993,
+            "dailyProfitRate": -0.00409211
+        },
+        {
+            "profitDate": 1666540800,
+            "nav": 0.94849798,
+            "dailyProfitRate": -0.00875967
+        },
+        {
+            "profitDate": 1666627200,
+            "nav": 0.95027194,
+            "dailyProfitRate": 0.00187029
+        },
+        {
+            "profitDate": 1666713600,
+            "nav": 0.96354719,
+            "dailyProfitRate": 0.01396994
+        },
+        {
+            "profitDate": 1666800000,
+            "nav": 0.95228864,
+            "dailyProfitRate": -0.01168448
+        },
+        {
+            "profitDate": 1666886400,
+            "nav": 0.93049041,
+            "dailyProfitRate": -0.02289036
+        },
+        {
+            "profitDate": 1667145600,
+            "nav": 0.93480679,
+            "dailyProfitRate": 0.00463882
+        },
+        {
+            "profitDate": 1667232000,
+            "nav": 0.94961634,
+            "dailyProfitRate": 0.01584237
+        },
+        {
+            "profitDate": 1667318400,
+            "nav": 0.954693,
+            "dailyProfitRate": 0.00534602
+        },
+        {
+            "profitDate": 1667404800,
+            "nav": 0.9415114,
+            "dailyProfitRate": -0.01380716
+        },
+        {
+            "profitDate": 1667491200,
+            "nav": 0.9545943,
+            "dailyProfitRate": 0.01389563
+        },
+        {
+            "profitDate": 1667750400,
+            "nav": 0.96144311,
+            "dailyProfitRate": 0.00717458
+        },
+        {
+            "profitDate": 1667836800,
+            "nav": 0.9601475,
+            "dailyProfitRate": -0.00134756
+        },
+        {
+            "profitDate": 1667923200,
+            "nav": 0.95752571,
+            "dailyProfitRate": -0.00273062
+        },
+        {
+            "profitDate": 1668009600,
+            "nav": 0.94678319,
+            "dailyProfitRate": -0.01121905
+        },
+        {
+            "profitDate": 1668096000,
+            "nav": 0.98464497,
+            "dailyProfitRate": 0.03998992
+        },
+        {
+            "profitDate": 1668355200,
+            "nav": 0.98959229,
+            "dailyProfitRate": 0.00502448
+        },
+        {
+            "profitDate": 1668441600,
+            "nav": 0.992568,
+            "dailyProfitRate": 0.00300701
+        },
+        {
+            "profitDate": 1668528000,
+            "nav": 0.99077714,
+            "dailyProfitRate": -0.00180427
+        },
+        {
+            "profitDate": 1668614400,
+            "nav": 0.98379302,
+            "dailyProfitRate": -0.00704913
+        },
+        {
+            "profitDate": 1668700800,
+            "nav": 0.9819688,
+            "dailyProfitRate": -0.00185428
+        },
+        {
+            "profitDate": 1668960000,
+            "nav": 0.97934447,
+            "dailyProfitRate": -0.00267252
+        },
+        {
+            "profitDate": 1669046400,
+            "nav": 0.97565399,
+            "dailyProfitRate": -0.00376831
+        },
+        {
+            "profitDate": 1669132800,
+            "nav": 0.98197701,
+            "dailyProfitRate": 0.0064808
+        },
+        {
+            "profitDate": 1669219200,
+            "nav": 0.98233193,
+            "dailyProfitRate": 0.00036143
+        },
+        {
+            "profitDate": 1669305600,
+            "nav": 0.98334058,
+            "dailyProfitRate": 0.0010268
+        },
+        {
+            "profitDate": 1669564800,
+            "nav": 0.97550077,
+            "dailyProfitRate": -0.00797263
+        },
+        {
+            "profitDate": 1669651200,
+            "nav": 0.98868494,
+            "dailyProfitRate": 0.01351528
+        },
+        {
+            "profitDate": 1669737600,
+            "nav": 0.98745625,
+            "dailyProfitRate": -0.00124275
+        },
+        {
+            "profitDate": 1669824000,
+            "nav": 1.00709684,
+            "dailyProfitRate": 0.01989009
+        },
+        {
+            "profitDate": 1669910400,
+            "nav": 1.00140386,
+            "dailyProfitRate": -0.00565287
+        },
+        {
+            "profitDate": 1670169600,
+            "nav": 1.00730574,
+            "dailyProfitRate": 0.00589361
+        },
+        {
+            "profitDate": 1670256000,
+            "nav": 1.00362674,
+            "dailyProfitRate": -0.00365232
+        },
+        {
+            "profitDate": 1670342400,
+            "nav": 0.99325745,
+            "dailyProfitRate": -0.01033183
+        },
+        {
+            "profitDate": 1670428800,
+            "nav": 0.99282844,
+            "dailyProfitRate": -0.00043192
+        },
+        {
+            "profitDate": 1670515200,
+            "nav": 1.00172453,
+            "dailyProfitRate": 0.00896035
+        },
+        {
+            "profitDate": 1670774400,
+            "nav": 0.99216775,
+            "dailyProfitRate": -0.00954033
+        },
+        {
+            "profitDate": 1670860800,
+            "nav": 0.99523015,
+            "dailyProfitRate": 0.00308658
+        },
+        {
+            "profitDate": 1670947200,
+            "nav": 1.00080668,
+            "dailyProfitRate": 0.00560326
+        },
+        {
+            "profitDate": 1671033600,
+            "nav": 0.99591743,
+            "dailyProfitRate": -0.00488531
+        },
+        {
+            "profitDate": 1671120000,
+            "nav": 0.98319989,
+            "dailyProfitRate": -0.01276967
+        },
+        {
+            "profitDate": 1671379200,
+            "nav": 0.9716946,
+            "dailyProfitRate": -0.01170189
+        },
+        {
+            "profitDate": 1671465600,
+            "nav": 0.95779499,
+            "dailyProfitRate": -0.01430451
+        },
+        {
+            "profitDate": 1671552000,
+            "nav": 0.95748803,
+            "dailyProfitRate": -0.00032048
+        },
+        {
+            "profitDate": 1671638400,
+            "nav": 0.96027115,
+            "dailyProfitRate": 0.00290669
+        },
+        {
+            "profitDate": 1671724800,
+            "nav": 0.95194296,
+            "dailyProfitRate": -0.00867274
+        },
+        {
+            "profitDate": 1671984000,
+            "nav": 0.95600761,
+            "dailyProfitRate": 0.00426985
+        },
+        {
+            "profitDate": 1672070400,
+            "nav": 0.96324962,
+            "dailyProfitRate": 0.00757526
+        },
+        {
+            "profitDate": 1672156800,
+            "nav": 0.95634384,
+            "dailyProfitRate": -0.00716925
+        },
+        {
+            "profitDate": 1672243200,
+            "nav": 0.950438,
+            "dailyProfitRate": -0.00617543
+        },
+        {
+            "profitDate": 1672329600,
+            "nav": 0.96041028,
+            "dailyProfitRate": 0.01049229
+        },
+        {
+            "profitDate": 1672675200,
+            "nav": 0.96357007,
+            "dailyProfitRate": 0.00329004
+        },
+        {
+            "profitDate": 1672761600,
+            "nav": 0.96210886,
+            "dailyProfitRate": -0.00151645
+        },
+        {
+            "profitDate": 1672848000,
+            "nav": 0.97371943,
+            "dailyProfitRate": 0.01206783
+        },
+        {
+            "profitDate": 1672934400,
+            "nav": 0.96936962,
+            "dailyProfitRate": -0.00446721
+        },
+        {
+            "profitDate": 1673193600,
+            "nav": 0.98275313,
+            "dailyProfitRate": 0.0138064
+        },
+        {
+            "profitDate": 1673280000,
+            "nav": 0.98156619,
+            "dailyProfitRate": -0.00120777
+        },
+        {
+            "profitDate": 1673366400,
+            "nav": 0.98040093,
+            "dailyProfitRate": -0.00118715
+        },
+        {
+            "profitDate": 1673452800,
+            "nav": 0.98616226,
+            "dailyProfitRate": 0.00587651
+        },
+        {
+            "profitDate": 1673539200,
+            "nav": 0.99496839,
+            "dailyProfitRate": 0.0089297
+        },
+        {
+            "profitDate": 1673798400,
+            "nav": 1.00449813,
+            "dailyProfitRate": 0.00957794
+        },
+        {
+            "profitDate": 1673884800,
+            "nav": 1.00260312,
+            "dailyProfitRate": -0.00188653
+        },
+        {
+            "profitDate": 1673971200,
+            "nav": 1.00237744,
+            "dailyProfitRate": -0.00022509
+        },
+        {
+            "profitDate": 1674057600,
+            "nav": 1.00318073,
+            "dailyProfitRate": 0.00080139
+        },
+        {
+            "profitDate": 1674144000,
+            "nav": 1.00357874,
+            "dailyProfitRate": 0.00039675
+        },
+        {
+            "profitDate": 1675008000,
+            "nav": 1.01547857,
+            "dailyProfitRate": 0.01185739
+        },
+        {
+            "profitDate": 1675094400,
+            "nav": 1.01757056,
+            "dailyProfitRate": 0.00206011
+        },
+        {
+            "profitDate": 1675180800,
+            "nav": 1.02753734,
+            "dailyProfitRate": 0.00979468
+        },
+        {
+            "profitDate": 1675267200,
+            "nav": 1.0328346,
+            "dailyProfitRate": 0.00515529
+        },
+        {
+            "profitDate": 1675353600,
+            "nav": 1.03702926,
+            "dailyProfitRate": 0.00406131
+        },
+        {
+            "profitDate": 1675612800,
+            "nav": 1.0245206,
+            "dailyProfitRate": -0.01206202
+        },
+        {
+            "profitDate": 1675699200,
+            "nav": 1.02515183,
+            "dailyProfitRate": 0.00061612
+        },
+        {
+            "profitDate": 1675785600,
+            "nav": 1.02964691,
+            "dailyProfitRate": 0.0043848
+        },
+        {
+            "profitDate": 1675872000,
+            "nav": 1.03079021,
+            "dailyProfitRate": 0.00111038
+        },
+        {
+            "profitDate": 1675958400,
+            "nav": 1.02524731,
+            "dailyProfitRate": -0.00537733
+        },
+        {
+            "profitDate": 1676217600,
+            "nav": 1.02881464,
+            "dailyProfitRate": 0.00347948
+        },
+        {
+            "profitDate": 1676304000,
+            "nav": 1.0353809,
+            "dailyProfitRate": 0.00638235
+        },
+        {
+            "profitDate": 1676390400,
+            "nav": 1.0349188,
+            "dailyProfitRate": -0.00044631
+        },
+        {
+            "profitDate": 1676476800,
+            "nav": 1.03162291,
+            "dailyProfitRate": -0.00318468
+        },
+        {
+            "profitDate": 1676563200,
+            "nav": 1.01942775,
+            "dailyProfitRate": -0.01182133
+        },
+        {
+            "profitDate": 1676822400,
+            "nav": 1.03115154,
+            "dailyProfitRate": 0.01150036
+        },
+        {
+            "profitDate": 1676908800,
+            "nav": 1.03215685,
+            "dailyProfitRate": 0.00097495
+        },
+        {
+            "profitDate": 1676995200,
+            "nav": 1.01930358,
+            "dailyProfitRate": -0.01245283
+        },
+        {
+            "profitDate": 1677081600,
+            "nav": 1.01932454,
+            "dailyProfitRate": 0.00002056
+        },
+        {
+            "profitDate": 1677168000,
+            "nav": 1.01866757,
+            "dailyProfitRate": -0.00064451
+        },
+        {
+            "profitDate": 1677427200,
+            "nav": 1.01090244,
+            "dailyProfitRate": -0.00762283
+        },
+        {
+            "profitDate": 1677513600,
+            "nav": 1.01964519,
+            "dailyProfitRate": 0.00864846
+        },
+        {
+            "profitDate": 1677600000,
+            "nav": 1.02561081,
+            "dailyProfitRate": 0.00585069
+        },
+        {
+            "profitDate": 1677686400,
+            "nav": 1.0203145,
+            "dailyProfitRate": -0.00516406
+        },
+        {
+            "profitDate": 1677772800,
+            "nav": 1.02107262,
+            "dailyProfitRate": 0.00074303
+        },
+        {
+            "profitDate": 1678032000,
+            "nav": 1.02773815,
+            "dailyProfitRate": 0.00652797
+        },
+        {
+            "profitDate": 1678118400,
+            "nav": 1.01726274,
+            "dailyProfitRate": -0.01019268
+        },
+        {
+            "profitDate": 1678204800,
+            "nav": 1.0126929,
+            "dailyProfitRate": -0.00449229
+        },
+        {
+            "profitDate": 1678291200,
+            "nav": 1.01428793,
+            "dailyProfitRate": 0.00157504
+        },
+        {
+            "profitDate": 1678377600,
+            "nav": 0.99986907,
+            "dailyProfitRate": -0.01421575
+        },
+        {
+            "profitDate": 1678636800,
+            "nav": 1.00096835,
+            "dailyProfitRate": 0.00109942
+        },
+        {
+            "profitDate": 1678723200,
+            "nav": 0.99685921,
+            "dailyProfitRate": -0.00410517
+        },
+        {
+            "profitDate": 1678809600,
+            "nav": 1.00282561,
+            "dailyProfitRate": 0.0059852
+        },
+        {
+            "profitDate": 1678896000,
+            "nav": 0.99471704,
+            "dailyProfitRate": -0.00808572
+        },
+        {
+            "profitDate": 1678982400,
+            "nav": 1.00866956,
+            "dailyProfitRate": 0.01402662
+        },
+        {
+            "profitDate": 1679241600,
+            "nav": 1.00252544,
+            "dailyProfitRate": -0.00609131
+        },
+        {
+            "profitDate": 1679328000,
+            "nav": 1.01053325,
+            "dailyProfitRate": 0.00798764
+        },
+        {
+            "profitDate": 1679414400,
+            "nav": 1.01874392,
+            "dailyProfitRate": 0.00812508
+        },
+        {
+            "profitDate": 1679500800,
+            "nav": 1.01786399,
+            "dailyProfitRate": -0.00086374
+        },
+        {
+            "profitDate": 1679587200,
+            "nav": 1.02129472,
+            "dailyProfitRate": 0.00337052
+        },
+        {
+            "profitDate": 1679846400,
+            "nav": 1.01950509,
+            "dailyProfitRate": -0.00175232
+        },
+        {
+            "profitDate": 1679932800,
+            "nav": 1.01728487,
+            "dailyProfitRate": -0.00217775
+        },
+        {
+            "profitDate": 1680019200,
+            "nav": 1.01646028,
+            "dailyProfitRate": -0.00081057
+        },
+        {
+            "profitDate": 1680105600,
+            "nav": 1.02798544,
+            "dailyProfitRate": 0.01133852
+        },
+        {
+            "profitDate": 1680192000,
+            "nav": 1.03442257,
+            "dailyProfitRate": 0.00626189
+        },
+        {
+            "profitDate": 1680451200,
+            "nav": 1.04510304,
+            "dailyProfitRate": 0.01032505
+        },
+        {
+            "profitDate": 1680537600,
+            "nav": 1.04584665,
+            "dailyProfitRate": 0.00071151
+        },
+        {
+            "profitDate": 1680710400,
+            "nav": 1.04084885,
+            "dailyProfitRate": -0.00477871
+        },
+        {
+            "profitDate": 1680796800,
+            "nav": 1.04426296,
+            "dailyProfitRate": 0.00328012
+        },
+        {
+            "profitDate": 1681056000,
+            "nav": 1.04107333,
+            "dailyProfitRate": -0.00305443
+        },
+        {
+            "profitDate": 1681142400,
+            "nav": 1.03956142,
+            "dailyProfitRate": -0.00145226
+        },
+        {
+            "profitDate": 1681228800,
+            "nav": 1.03784028,
+            "dailyProfitRate": -0.00165564
+        },
+        {
+            "profitDate": 1681315200,
+            "nav": 1.03161449,
+            "dailyProfitRate": -0.00599879
+        },
+        {
+            "profitDate": 1681401600,
+            "nav": 1.03904619,
+            "dailyProfitRate": 0.00720395
+        },
+        {
+            "profitDate": 1681660800,
+            "nav": 1.0436371,
+            "dailyProfitRate": 0.00441839
+        },
+        {
+            "profitDate": 1681747200,
+            "nav": 1.04604408,
+            "dailyProfitRate": 0.00230634
+        },
+        {
+            "profitDate": 1681833600,
+            "nav": 1.04285978,
+            "dailyProfitRate": -0.00304414
+        },
+        {
+            "profitDate": 1681920000,
+            "nav": 1.04031183,
+            "dailyProfitRate": -0.00244323
+        },
+        {
+            "profitDate": 1682006400,
+            "nav": 1.02677339,
+            "dailyProfitRate": -0.01301383
+        },
+        {
+            "profitDate": 1682265600,
+            "nav": 1.01952221,
+            "dailyProfitRate": -0.00706211
+        },
+        {
+            "profitDate": 1682352000,
+            "nav": 1.01572405,
+            "dailyProfitRate": -0.00372543
+        },
+        {
+            "profitDate": 1682438400,
+            "nav": 1.00849407,
+            "dailyProfitRate": -0.00711805
+        },
+        {
+            "profitDate": 1682524800,
+            "nav": 1.01517477,
+            "dailyProfitRate": 0.00662443
+        },
+        {
+            "profitDate": 1682611200,
+            "nav": 1.03098967,
+            "dailyProfitRate": 0.0155785
+        },
+        {
+            "profitDate": 1683129600,
+            "nav": 1.03322546,
+            "dailyProfitRate": 0.00216859
+        },
+        {
+            "profitDate": 1683216000,
+            "nav": 1.02065542,
+            "dailyProfitRate": -0.01216582
+        },
+        {
+            "profitDate": 1683475200,
+            "nav": 1.03312317,
+            "dailyProfitRate": 0.01221543
+        },
+        {
+            "profitDate": 1683561600,
+            "nav": 1.02953648,
+            "dailyProfitRate": -0.00347169
+        },
+        {
+            "profitDate": 1683648000,
+            "nav": 1.02444534,
+            "dailyProfitRate": -0.00494508
+        },
+        {
+            "profitDate": 1683734400,
+            "nav": 1.02741327,
+            "dailyProfitRate": 0.0028971
+        },
+        {
+            "profitDate": 1683820800,
+            "nav": 1.02044731,
+            "dailyProfitRate": -0.00678009
+        },
+        {
+            "profitDate": 1684080000,
+            "nav": 1.02760255,
+            "dailyProfitRate": 0.00701187
+        },
+        {
+            "profitDate": 1684166400,
+            "nav": 1.02713675,
+            "dailyProfitRate": -0.00045329
+        },
+        {
+            "profitDate": 1684252800,
+            "nav": 1.02421502,
+            "dailyProfitRate": -0.00284454
+        },
+        {
+            "profitDate": 1684339200,
+            "nav": 1.03116916,
+            "dailyProfitRate": 0.00678973
+        },
+        {
+            "profitDate": 1684425600,
+            "nav": 1.03945876,
+            "dailyProfitRate": 0.00803904
+        },
+        {
+            "profitDate": 1684684800,
+            "nav": 1.04454923,
+            "dailyProfitRate": 0.00489723
+        },
+        {
+            "profitDate": 1684771200,
+            "nav": 1.03797555,
+            "dailyProfitRate": -0.00629332
+        },
+        {
+            "profitDate": 1684857600,
+            "nav": 1.02726166,
+            "dailyProfitRate": -0.01032191
+        },
+        {
+            "profitDate": 1684944000,
+            "nav": 1.02446719,
+            "dailyProfitRate": -0.00272031
+        },
+        {
+            "profitDate": 1685030400,
+            "nav": 1.03521891,
+            "dailyProfitRate": 0.01049493
+        },
+        {
+            "profitDate": 1685289600,
+            "nav": 1.04496774,
+            "dailyProfitRate": 0.00941717
+        },
+        {
+            "profitDate": 1685376000,
+            "nav": 1.04471578,
+            "dailyProfitRate": -0.00024113
+        },
+        {
+            "profitDate": 1685462400,
+            "nav": 1.04394864,
+            "dailyProfitRate": -0.0007343
+        },
+        {
+            "profitDate": 1685548800,
+            "nav": 1.04204029,
+            "dailyProfitRate": -0.00182801
+        },
+        {
+            "profitDate": 1685635200,
+            "nav": 1.05575044,
+            "dailyProfitRate": 0.01315703
+        },
+        {
+            "profitDate": 1685894400,
+            "nav": 1.05795917,
+            "dailyProfitRate": 0.0020921
+        },
+        {
+            "profitDate": 1685980800,
+            "nav": 1.05128872,
+            "dailyProfitRate": -0.00630502
+        },
+        {
+            "profitDate": 1686067200,
+            "nav": 1.05184701,
+            "dailyProfitRate": 0.00053105
+        },
+        {
+            "profitDate": 1686153600,
+            "nav": 1.04821819,
+            "dailyProfitRate": -0.00344995
+        },
+        {
+            "profitDate": 1686240000,
+            "nav": 1.05634396,
+            "dailyProfitRate": 0.00775199
+        },
+        {
+            "profitDate": 1686499200,
+            "nav": 1.06026878,
+            "dailyProfitRate": 0.00371547
+        },
+        {
+            "profitDate": 1686585600,
+            "nav": 1.07075724,
+            "dailyProfitRate": 0.00989227
+        },
+        {
+            "profitDate": 1686672000,
+            "nav": 1.07791571,
+            "dailyProfitRate": 0.00668543
+        },
+        {
+            "profitDate": 1686758400,
+            "nav": 1.08741461,
+            "dailyProfitRate": 0.00881228
+        },
+        {
+            "profitDate": 1686844800,
+            "nav": 1.09746276,
+            "dailyProfitRate": 0.00924041
+        },
+        {
+            "profitDate": 1687104000,
+            "nav": 1.09012153,
+            "dailyProfitRate": -0.00668928
+        },
+        {
+            "profitDate": 1687190400,
+            "nav": 1.0885274,
+            "dailyProfitRate": -0.00146234
+        },
+        {
+            "profitDate": 1687276800,
+            "nav": 1.08128558,
+            "dailyProfitRate": -0.00665286
+        },
+        {
+            "profitDate": 1687708800,
+            "nav": 1.0674609,
+            "dailyProfitRate": -0.0127854
+        },
+        {
+            "profitDate": 1687795200,
+            "nav": 1.07039597,
+            "dailyProfitRate": 0.00274958
+        },
+        {
+            "profitDate": 1687881600,
+            "nav": 1.07777047,
+            "dailyProfitRate": 0.0068895
+        },
+        {
+            "profitDate": 1687968000,
+            "nav": 1.07740346,
+            "dailyProfitRate": -0.00034053
+        },
+        {
+            "profitDate": 1688054400,
+            "nav": 1.08112433,
+            "dailyProfitRate": 0.00345356
+        },
+        {
+            "profitDate": 1688313600,
+            "nav": 1.0950275,
+            "dailyProfitRate": 0.01285992
+        },
+        {
+            "profitDate": 1688400000,
+            "nav": 1.09632982,
+            "dailyProfitRate": 0.0011893
+        },
+        {
+            "profitDate": 1688486400,
+            "nav": 1.09119687,
+            "dailyProfitRate": -0.00468194
+        },
+        {
+            "profitDate": 1688572800,
+            "nav": 1.08730879,
+            "dailyProfitRate": -0.00356313
+        },
+        {
+            "profitDate": 1688659200,
+            "nav": 1.08211755,
+            "dailyProfitRate": -0.00477439
+        },
+        {
+            "profitDate": 1688918400,
+            "nav": 1.08202253,
+            "dailyProfitRate": -0.00008781
+        },
+        {
+            "profitDate": 1689004800,
+            "nav": 1.08500056,
+            "dailyProfitRate": 0.00275228
+        },
+        {
+            "profitDate": 1689091200,
+            "nav": 1.08354171,
+            "dailyProfitRate": -0.00134456
+        },
+        {
+            "profitDate": 1689177600,
+            "nav": 1.0969302,
+            "dailyProfitRate": 0.01235623
+        },
+        {
+            "profitDate": 1689264000,
+            "nav": 1.10256517,
+            "dailyProfitRate": 0.00513704
+        },
+        {
+            "profitDate": 1689523200,
+            "nav": 1.09760537,
+            "dailyProfitRate": -0.00449842
+        },
+        {
+            "profitDate": 1689609600,
+            "nav": 1.09984743,
+            "dailyProfitRate": 0.00204269
+        },
+        {
+            "profitDate": 1689696000,
+            "nav": 1.10441662,
+            "dailyProfitRate": 0.00415438
+        },
+        {
+            "profitDate": 1689782400,
+            "nav": 1.0995303,
+            "dailyProfitRate": -0.00442434
+        },
+        {
+            "profitDate": 1689868800,
+            "nav": 1.09023491,
+            "dailyProfitRate": -0.00845397
+        },
+        {
+            "profitDate": 1690128000,
+            "nav": 1.08739841,
+            "dailyProfitRate": -0.00260173
+        },
+        {
+            "profitDate": 1690214400,
+            "nav": 1.10288,
+            "dailyProfitRate": 0.01423728
+        },
+        {
+            "profitDate": 1690300800,
+            "nav": 1.10336912,
+            "dailyProfitRate": 0.00044349
+        },
+        {
+            "profitDate": 1690387200,
+            "nav": 1.09955125,
+            "dailyProfitRate": -0.00346019
+        },
+        {
+            "profitDate": 1690473600,
+            "nav": 1.10869994,
+            "dailyProfitRate": 0.00832038
+        },
+        {
+            "profitDate": 1690732800,
+            "nav": 1.1202513,
+            "dailyProfitRate": 0.01041883
+        },
+        {
+            "profitDate": 1690819200,
+            "nav": 1.11856051,
+            "dailyProfitRate": -0.00150929
+        },
+        {
+            "profitDate": 1690905600,
+            "nav": 1.11389846,
+            "dailyProfitRate": -0.00416791
+        },
+        {
+            "profitDate": 1690992000,
+            "nav": 1.10768789,
+            "dailyProfitRate": -0.00557552
+        },
+        {
+            "profitDate": 1691078400,
+            "nav": 1.11017446,
+            "dailyProfitRate": 0.00224483
+        },
+        {
+            "profitDate": 1691337600,
+            "nav": 1.10293294,
+            "dailyProfitRate": -0.00652287
+        },
+        {
+            "profitDate": 1691424000,
+            "nav": 1.10505906,
+            "dailyProfitRate": 0.0019277
+        },
+        {
+            "profitDate": 1691510400,
+            "nav": 1.09984265,
+            "dailyProfitRate": -0.00472048
+        },
+        {
+            "profitDate": 1691596800,
+            "nav": 1.0956539,
+            "dailyProfitRate": -0.0038085
+        },
+        {
+            "profitDate": 1691683200,
+            "nav": 1.08474698,
+            "dailyProfitRate": -0.00995471
+        },
+        {
+            "profitDate": 1691942400,
+            "nav": 1.08026615,
+            "dailyProfitRate": -0.00413076
+        },
+        {
+            "profitDate": 1692028800,
+            "nav": 1.08401353,
+            "dailyProfitRate": 0.00346893
+        },
+        {
+            "profitDate": 1692115200,
+            "nav": 1.07510364,
+            "dailyProfitRate": -0.00821935
+        },
+        {
+            "profitDate": 1692201600,
+            "nav": 1.07467256,
+            "dailyProfitRate": -0.00040097
+        },
+        {
+            "profitDate": 1692288000,
+            "nav": 1.06298457,
+            "dailyProfitRate": -0.01087586
+        },
+        {
+            "profitDate": 1692547200,
+            "nav": 1.05541131,
+            "dailyProfitRate": -0.00712453
+        },
+        {
+            "profitDate": 1692633600,
+            "nav": 1.06564337,
+            "dailyProfitRate": 0.00969486
+        },
+        {
+            "profitDate": 1692720000,
+            "nav": 1.05603731,
+            "dailyProfitRate": -0.00901433
+        },
+        {
+            "profitDate": 1692806400,
+            "nav": 1.06657794,
+            "dailyProfitRate": 0.0099813
+        },
+        {
+            "profitDate": 1692892800,
+            "nav": 1.05235303,
+            "dailyProfitRate": -0.01333696
+        },
+        {
+            "profitDate": 1693152000,
+            "nav": 1.0613722,
+            "dailyProfitRate": 0.00857048
+        },
+        {
+            "profitDate": 1693238400,
+            "nav": 1.07256994,
+            "dailyProfitRate": 0.01055025
+        },
+        {
+            "profitDate": 1693324800,
+            "nav": 1.08251703,
+            "dailyProfitRate": 0.00927407
+        },
+        {
+            "profitDate": 1693411200,
+            "nav": 1.08138163,
+            "dailyProfitRate": -0.00104885
+        },
+        {
+            "profitDate": 1693497600,
+            "nav": 1.08537756,
+            "dailyProfitRate": 0.0036952
+        },
+        {
+            "profitDate": 1693756800,
+            "nav": 1.09324344,
+            "dailyProfitRate": 0.00724714
+        },
+        {
+            "profitDate": 1693843200,
+            "nav": 1.08903239,
+            "dailyProfitRate": -0.00385189
+        },
+        {
+            "profitDate": 1693929600,
+            "nav": 1.08829875,
+            "dailyProfitRate": -0.00067366
+        },
+        {
+            "profitDate": 1694016000,
+            "nav": 1.07746947,
+            "dailyProfitRate": -0.00995065
+        },
+        {
+            "profitDate": 1694102400,
+            "nav": 1.07288069,
+            "dailyProfitRate": -0.00425886
+        },
+        {
+            "profitDate": 1694361600,
+            "nav": 1.07974594,
+            "dailyProfitRate": 0.0063989
+        },
+        {
+            "profitDate": 1694448000,
+            "nav": 1.08378185,
+            "dailyProfitRate": 0.00373783
+        },
+        {
+            "profitDate": 1694534400,
+            "nav": 1.07380452,
+            "dailyProfitRate": -0.00920603
+        },
+        {
+            "profitDate": 1694620800,
+            "nav": 1.07382983,
+            "dailyProfitRate": 0.00002356
+        },
+        {
+            "profitDate": 1694707200,
+            "nav": 1.07519437,
+            "dailyProfitRate": 0.00127073
+        },
+        {
+            "profitDate": 1694966400,
+            "nav": 1.06905645,
+            "dailyProfitRate": -0.00570866
+        },
+        {
+            "profitDate": 1695052800,
+            "nav": 1.06695089,
+            "dailyProfitRate": -0.00196955
+        },
+        {
+            "profitDate": 1695139200,
+            "nav": 1.06360848,
+            "dailyProfitRate": -0.00313267
+        },
+        {
+            "profitDate": 1695225600,
+            "nav": 1.05270515,
+            "dailyProfitRate": -0.01025126
+        },
+        {
+            "profitDate": 1695312000,
+            "nav": 1.05337636,
+            "dailyProfitRate": 0.0006376
+        },
+        {
+            "profitDate": 1695571200,
+            "nav": 1.04957848,
+            "dailyProfitRate": -0.00360544
+        },
+        {
+            "profitDate": 1695657600,
+            "nav": 1.04917619,
+            "dailyProfitRate": -0.00038329
+        },
+        {
+            "profitDate": 1695744000,
+            "nav": 1.04369143,
+            "dailyProfitRate": -0.00522768
+        },
+        {
+            "profitDate": 1695830400,
+            "nav": 1.04373486,
+            "dailyProfitRate": 0.00004161
+        },
+        {
+            "profitDate": 1696780800,
+            "nav": 1.04598289,
+            "dailyProfitRate": 0.00215384
+        },
+        {
+            "profitDate": 1696867200,
+            "nav": 1.0503275,
+            "dailyProfitRate": 0.00415361
+        },
+        {
+            "profitDate": 1696953600,
+            "nav": 1.05341252,
+            "dailyProfitRate": 0.0029372
+        },
+        {
+            "profitDate": 1697040000,
+            "nav": 1.06008916,
+            "dailyProfitRate": 0.00633811
+        },
+        {
+            "profitDate": 1697126400,
+            "nav": 1.05295932,
+            "dailyProfitRate": -0.0067257
+        },
+        {
+            "profitDate": 1697385600,
+            "nav": 1.04334858,
+            "dailyProfitRate": -0.00912736
+        },
+        {
+            "profitDate": 1697472000,
+            "nav": 1.05012792,
+            "dailyProfitRate": 0.00649768
+        },
+        {
+            "profitDate": 1697558400,
+            "nav": 1.04360798,
+            "dailyProfitRate": -0.00620872
+        },
+        {
+            "profitDate": 1697644800,
+            "nav": 1.02751519,
+            "dailyProfitRate": -0.01542034
+        },
+        {
+            "profitDate": 1697731200,
+            "nav": 1.01941359,
+            "dailyProfitRate": -0.00788465
+        },
+        {
+            "profitDate": 1697990400,
+            "nav": 1.0051737,
+            "dailyProfitRate": -0.0139687
+        },
+        {
+            "profitDate": 1698076800,
+            "nav": 1.0094734,
+            "dailyProfitRate": 0.00427756
+        },
+        {
+            "profitDate": 1698163200,
+            "nav": 1.017068,
+            "dailyProfitRate": 0.00752333
+        },
+        {
+            "profitDate": 1698249600,
+            "nav": 1.00907846,
+            "dailyProfitRate": -0.00785546
+        },
+        {
+            "profitDate": 1698336000,
+            "nav": 1.00812584,
+            "dailyProfitRate": -0.00094406
+        },
+        {
+            "profitDate": 1698595200,
+            "nav": 1.01151052,
+            "dailyProfitRate": 0.0033574
+        },
+        {
+            "profitDate": 1698681600,
+            "nav": 1.01491095,
+            "dailyProfitRate": 0.00336174
+        },
+        {
+            "profitDate": 1698768000,
+            "nav": 1.01738754,
+            "dailyProfitRate": 0.0024402
+        },
+        {
+            "profitDate": 1698854400,
+            "nav": 1.02117348,
+            "dailyProfitRate": 0.00372124
+        },
+        {
+            "profitDate": 1698940800,
+            "nav": 1.03403572,
+            "dailyProfitRate": 0.01259554
+        },
+        {
+            "profitDate": 1699200000,
+            "nav": 1.04630604,
+            "dailyProfitRate": 0.01186644
+        },
+        {
+            "profitDate": 1699286400,
+            "nav": 1.04699558,
+            "dailyProfitRate": 0.00065902
+        },
+        {
+            "profitDate": 1699372800,
+            "nav": 1.0493648,
+            "dailyProfitRate": 0.00226287
+        },
+        {
+            "profitDate": 1699459200,
+            "nav": 1.04922782,
+            "dailyProfitRate": -0.00013053
+        },
+        {
+            "profitDate": 1699545600,
+            "nav": 1.04216305,
+            "dailyProfitRate": -0.0067333
+        },
+        {
+            "profitDate": 1699804800,
+            "nav": 1.05192183,
+            "dailyProfitRate": 0.00936396
+        },
+        {
+            "profitDate": 1699891200,
+            "nav": 1.05236283,
+            "dailyProfitRate": 0.00041924
+        },
+        {
+            "profitDate": 1699977600,
+            "nav": 1.06579651,
+            "dailyProfitRate": 0.01276525
+        },
+        {
+            "profitDate": 1700064000,
+            "nav": 1.06169549,
+            "dailyProfitRate": -0.00384784
+        },
+        {
+            "profitDate": 1700150400,
+            "nav": 1.062404,
+            "dailyProfitRate": 0.00066734
+        },
+        {
+            "profitDate": 1700409600,
+            "nav": 1.0647168,
+            "dailyProfitRate": 0.00217694
+        },
+        {
+            "profitDate": 1700496000,
+            "nav": 1.06936435,
+            "dailyProfitRate": 0.00436507
+        },
+        {
+            "profitDate": 1700582400,
+            "nav": 1.06055699,
+            "dailyProfitRate": -0.00823608
+        },
+        {
+            "profitDate": 1700668800,
+            "nav": 1.06534366,
+            "dailyProfitRate": 0.00451336
+        },
+        {
+            "profitDate": 1700755200,
+            "nav": 1.06120085,
+            "dailyProfitRate": -0.00388871
+        },
+        {
+            "profitDate": 1701014400,
+            "nav": 1.05800151,
+            "dailyProfitRate": -0.00301483
+        },
+        {
+            "profitDate": 1701100800,
+            "nav": 1.05876034,
+            "dailyProfitRate": 0.00071723
+        },
+        {
+            "profitDate": 1701187200,
+            "nav": 1.05601176,
+            "dailyProfitRate": -0.00259604
+        },
+        {
+            "profitDate": 1701273600,
+            "nav": 1.05456471,
+            "dailyProfitRate": -0.0013703
+        },
+        {
+            "profitDate": 1701360000,
+            "nav": 1.05329601,
+            "dailyProfitRate": -0.00120305
+        },
+        {
+            "profitDate": 1701619200,
+            "nav": 1.05361531,
+            "dailyProfitRate": 0.00030314
+        },
+        {
+            "profitDate": 1701705600,
+            "nav": 1.03967703,
+            "dailyProfitRate": -0.013229
+        },
+        {
+            "profitDate": 1701792000,
+            "nav": 1.0424984,
+            "dailyProfitRate": 0.0027137
+        },
+        {
+            "profitDate": 1701878400,
+            "nav": 1.03974943,
+            "dailyProfitRate": -0.00263691
+        },
+        {
+            "profitDate": 1701964800,
+            "nav": 1.04719905,
+            "dailyProfitRate": 0.00716483
+        },
+        {
+            "profitDate": 1702224000,
+            "nav": 1.05233104,
+            "dailyProfitRate": 0.00490067
+        },
+        {
+            "profitDate": 1702310400,
+            "nav": 1.05726444,
+            "dailyProfitRate": 0.00468808
+        },
+        {
+            "profitDate": 1702396800,
+            "nav": 1.05350997,
+            "dailyProfitRate": -0.00355112
+        },
+        {
+            "profitDate": 1702483200,
+            "nav": 1.05741049,
+            "dailyProfitRate": 0.0037024
+        },
+        {
+            "profitDate": 1702569600,
+            "nav": 1.05528285,
+            "dailyProfitRate": -0.00201212
+        },
+        {
+            "profitDate": 1702828800,
+            "nav": 1.05287528,
+            "dailyProfitRate": -0.00228145
+        },
+        {
+            "profitDate": 1702915200,
+            "nav": 1.05570704,
+            "dailyProfitRate": 0.00268955
+        },
+        {
+            "profitDate": 1703001600,
+            "nav": 1.05340733,
+            "dailyProfitRate": -0.00217836
+        },
+        {
+            "profitDate": 1703088000,
+            "nav": 1.04946569,
+            "dailyProfitRate": -0.0037418
+        },
+        {
+            "profitDate": 1703174400,
+            "nav": 1.05449456,
+            "dailyProfitRate": 0.00479183
+        },
+        {
+            "profitDate": 1703433600,
+            "nav": 1.05579636,
+            "dailyProfitRate": 0.00123453
+        },
+        {
+            "profitDate": 1703520000,
+            "nav": 1.05239323,
+            "dailyProfitRate": -0.00322328
+        },
+        {
+            "profitDate": 1703606400,
+            "nav": 1.05716169,
+            "dailyProfitRate": 0.00453106
+        },
+        {
+            "profitDate": 1703692800,
+            "nav": 1.06819551,
+            "dailyProfitRate": 0.01043722
+        },
+        {
+            "profitDate": 1703779200,
+            "nav": 1.07124851,
+            "dailyProfitRate": 0.00285809
+        },
+        {
+            "profitDate": 1704124800,
+            "nav": 1.06421507,
+            "dailyProfitRate": -0.00656566
+        },
+        {
+            "profitDate": 1704211200,
+            "nav": 1.05615278,
+            "dailyProfitRate": -0.00757581
+        },
+        {
+            "profitDate": 1704297600,
+            "nav": 1.04858476,
+            "dailyProfitRate": -0.00716565
+        },
+        {
+            "profitDate": 1704384000,
+            "nav": 1.04236196,
+            "dailyProfitRate": -0.00593447
+        },
+        {
+            "profitDate": 1704643200,
+            "nav": 1.03587992,
+            "dailyProfitRate": -0.00621861
+        },
+        {
+            "profitDate": 1704729600,
+            "nav": 1.04607903,
+            "dailyProfitRate": 0.00984584
+        },
+        {
+            "profitDate": 1704816000,
+            "nav": 1.0445301,
+            "dailyProfitRate": -0.0014807
+        },
+        {
+            "profitDate": 1704902400,
+            "nav": 1.05167465,
+            "dailyProfitRate": 0.00683997
+        },
+        {
+            "profitDate": 1704988800,
+            "nav": 1.05076949,
+            "dailyProfitRate": -0.00086069
+        },
+        {
+            "profitDate": 1705248000,
+            "nav": 1.05036027,
+            "dailyProfitRate": -0.00038945
+        },
+        {
+            "profitDate": 1705334400,
+            "nav": 1.05192807,
+            "dailyProfitRate": 0.00149264
+        },
+        {
+            "profitDate": 1705420800,
+            "nav": 1.04147297,
+            "dailyProfitRate": -0.00993899
+        },
+        {
+            "profitDate": 1705507200,
+            "nav": 1.04075741,
+            "dailyProfitRate": -0.00068706
+        },
+        {
+            "profitDate": 1705593600,
+            "nav": 1.04533046,
+            "dailyProfitRate": 0.00439396
+        },
+        {
+            "profitDate": 1705852800,
+            "nav": 1.03983858,
+            "dailyProfitRate": -0.00525372
+        },
+        {
+            "profitDate": 1705939200,
+            "nav": 1.04381145,
+            "dailyProfitRate": 0.00382066
+        },
+        {
+            "profitDate": 1706025600,
+            "nav": 1.05229246,
+            "dailyProfitRate": 0.00812504
+        },
+        {
+            "profitDate": 1706112000,
+            "nav": 1.0654083,
+            "dailyProfitRate": 0.01246406
+        },
+        {
+            "profitDate": 1706198400,
+            "nav": 1.06515382,
+            "dailyProfitRate": -0.00023886
+        },
+        {
+            "profitDate": 1706457600,
+            "nav": 1.05891513,
+            "dailyProfitRate": -0.00585708
+        },
+        {
+            "profitDate": 1706544000,
+            "nav": 1.05468826,
+            "dailyProfitRate": -0.0039917
+        },
+        {
+            "profitDate": 1706630400,
+            "nav": 1.04602634,
+            "dailyProfitRate": -0.00821278
+        },
+        {
+            "profitDate": 1706716800,
+            "nav": 1.03470819,
+            "dailyProfitRate": -0.01082014
+        },
+        {
+            "profitDate": 1706803200,
+            "nav": 1.03482162,
+            "dailyProfitRate": 0.00010962
+        },
+        {
+            "profitDate": 1707062400,
+            "nav": 1.03878342,
+            "dailyProfitRate": 0.00382849
+        },
+        {
+            "profitDate": 1707148800,
+            "nav": 1.05416167,
+            "dailyProfitRate": 0.0148041
+        },
+        {
+            "profitDate": 1707235200,
+            "nav": 1.06152705,
+            "dailyProfitRate": 0.00698696
+        },
+        {
+            "profitDate": 1707321600,
+            "nav": 1.07027722,
+            "dailyProfitRate": 0.008243
+        },
+        {
+            "profitDate": 1708272000,
+            "nav": 1.07422416,
+            "dailyProfitRate": 0.00368777
+        },
+        {
+            "profitDate": 1708358400,
+            "nav": 1.07445955,
+            "dailyProfitRate": 0.00021913
+        },
+        {
+            "profitDate": 1708444800,
+            "nav": 1.07311844,
+            "dailyProfitRate": -0.00124817
+        },
+        {
+            "profitDate": 1708531200,
+            "nav": 1.07533063,
+            "dailyProfitRate": 0.00206146
+        },
+        {
+            "profitDate": 1708617600,
+            "nav": 1.09331555,
+            "dailyProfitRate": 0.01672501
+        },
+        {
+            "profitDate": 1708876800,
+            "nav": 1.08981516,
+            "dailyProfitRate": -0.00320163
+        },
+        {
+            "profitDate": 1708963200,
+            "nav": 1.09349291,
+            "dailyProfitRate": 0.00337465
+        },
+        {
+            "profitDate": 1709049600,
+            "nav": 1.08798942,
+            "dailyProfitRate": -0.00503295
+        },
+        {
+            "profitDate": 1709136000,
+            "nav": 1.09318891,
+            "dailyProfitRate": 0.00477899
+        },
+        {
+            "profitDate": 1709222400,
+            "nav": 1.09936801,
+            "dailyProfitRate": 0.00565236
+        },
+        {
+            "profitDate": 1709481600,
+            "nav": 1.10767104,
+            "dailyProfitRate": 0.00755254
+        },
+        {
+            "profitDate": 1709568000,
+            "nav": 1.10545515,
+            "dailyProfitRate": -0.00200049
+        },
+        {
+            "profitDate": 1709654400,
+            "nav": 1.09490814,
+            "dailyProfitRate": -0.00954088
+        },
+        {
+            "profitDate": 1709740800,
+            "nav": 1.09673414,
+            "dailyProfitRate": 0.00166772
+        },
+        {
+            "profitDate": 1709827200,
+            "nav": 1.10764748,
+            "dailyProfitRate": 0.00995076
+        },
+        {
+            "profitDate": 1710086400,
+            "nav": 1.10309996,
+            "dailyProfitRate": -0.00410556
+        },
+        {
+            "profitDate": 1710172800,
+            "nav": 1.10033363,
+            "dailyProfitRate": -0.00250778
+        }
+    ]
+}

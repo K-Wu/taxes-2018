@@ -6,12 +6,6 @@
     },
     "series": [
         {
-            "txnDay": 1646755200000,
-            "rebalance": 0,
-            "buy": 1330,
-            "redeem": 0
-        },
-        {
             "txnDay": 1646928000000,
             "rebalance": 1,
             "buy": 0,
