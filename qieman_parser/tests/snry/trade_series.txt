@@ -1,0 +1,657 @@
+{
+    "labels": {
+        "buy": "转入",
+        "redeem": "转出",
+        "rebalance": "跟调"
+    },
+    "series": [
+        {
+            "txnDay": 1646755200000,
+            "rebalance": 0,
+            "buy": 1330,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1646928000000,
+            "rebalance": 1,
+            "buy": 0,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1647273600000,
+            "rebalance": 0,
+            "buy": 1273.1,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1647878400000,
+            "rebalance": 0,
+            "buy": 1210,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1648569600000,
+            "rebalance": 0,
+            "buy": 1249.2,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1648742400000,
+            "rebalance": 0,
+            "buy": 6000,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1651161600000,
+            "rebalance": 0,
+            "buy": 3000,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1651680000000,
+            "rebalance": 0,
+            "buy": 1000,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1652198400000,
+            "rebalance": 0,
+            "buy": 1418.3,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1652803200000,
+            "rebalance": 0,
+            "buy": 1371.1,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1653408000000,
+            "rebalance": 0,
+            "buy": 1356,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1653926400000,
+            "rebalance": 0,
+            "buy": 1350,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1654531200000,
+            "rebalance": 0,
+            "buy": 1272,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1655136000000,
+            "rebalance": 0,
+            "buy": 1285,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1655740800000,
+            "rebalance": 0,
+            "buy": 1250,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1656345600000,
+            "rebalance": 0,
+            "buy": 1160,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1656950400000,
+            "rebalance": 0,
+            "buy": 1615,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1657555200000,
+            "rebalance": 0,
+            "buy": 1200.4,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1658160000000,
+            "rebalance": 0,
+            "buy": 1200,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1658764800000,
+            "rebalance": 0,
+            "buy": 1211.4,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1659456000000,
+            "rebalance": 0,
+            "buy": 1250,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1660060800000,
+            "rebalance": 0,
+            "buy": 1220,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1660665600000,
+            "rebalance": 0,
+            "buy": 1189.2,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1661270400000,
+            "rebalance": 0,
+            "buy": 1194,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1661788800000,
+            "rebalance": 0,
+            "buy": 1250,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1662480000000,
+            "rebalance": 0,
+            "buy": 1256.4,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1663603200000,
+            "rebalance": 0,
+            "buy": 1335,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1664208000000,
+            "rebalance": 0,
+            "buy": 1372.6,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1665504000000,
+            "rebalance": 0,
+            "buy": 1453.5,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1666108800000,
+            "rebalance": 0,
+            "buy": 1351.4,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1666713600000,
+            "rebalance": 0,
+            "buy": 1428.1,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1667232000000,
+            "rebalance": 0,
+            "buy": 1440,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1667923200000,
+            "rebalance": 0,
+            "buy": 1360,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1668528000000,
+            "rebalance": 0,
+            "buy": 1320,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1669132800000,
+            "rebalance": 0,
+            "buy": 1350,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1669824000000,
+            "rebalance": 0,
+            "buy": 1330,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1670428800000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1670860800000,
+            "rebalance": 0,
+            "buy": 1301,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1671465600000,
+            "rebalance": 0,
+            "buy": 1375,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1672070400000,
+            "rebalance": 0,
+            "buy": 4360,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1672675200000,
+            "rebalance": 0,
+            "buy": 1350,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1673280000000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1673884800000,
+            "rebalance": 0,
+            "buy": 1260,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1675094400000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1675699200000,
+            "rebalance": 0,
+            "buy": 1243,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1676390400000,
+            "rebalance": 0,
+            "buy": 1220,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1676908800000,
+            "rebalance": 0,
+            "buy": 1230,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1677513600000,
+            "rebalance": 0,
+            "buy": 1320,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1678118400000,
+            "rebalance": 1,
+            "buy": 1235,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1678809600000,
+            "rebalance": 0,
+            "buy": 1280,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1679328000000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1679932800000,
+            "rebalance": 0,
+            "buy": 1260,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1680537600000,
+            "rebalance": 0,
+            "buy": 1236,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1681142400000,
+            "rebalance": 0,
+            "buy": 1240,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1682265600000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1682438400000,
+            "rebalance": 0,
+            "buy": 1330,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1683561600000,
+            "rebalance": 0,
+            "buy": 1265,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1685376000000,
+            "rebalance": 0,
+            "buy": 1400,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1685980800000,
+            "rebalance": 0,
+            "buy": 1350,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1686585600000,
+            "rebalance": 0,
+            "buy": 1350,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1687190400000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1687795200000,
+            "rebalance": 0,
+            "buy": 1350,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1688486400000,
+            "rebalance": 0,
+            "buy": 1320,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1689004800000,
+            "rebalance": 0,
+            "buy": 1330,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1690387200000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1690992000000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1691424000000,
+            "rebalance": 0,
+            "buy": 1300,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1692201600000,
+            "rebalance": 0,
+            "buy": 1370,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1692633600000,
+            "rebalance": 1,
+            "buy": 0,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1692720000000,
+            "rebalance": 0,
+            "buy": 1286.15,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1692806400000,
+            "rebalance": 0,
+            "buy": 163.85,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1693238400000,
+            "rebalance": 0,
+            "buy": 1240.82,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1693324800000,
+            "rebalance": 0,
+            "buy": 159.18,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1695052800000,
+            "rebalance": 0,
+            "buy": 1284.41,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1695139200000,
+            "rebalance": 0,
+            "buy": 165.59,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1695657600000,
+            "rebalance": 0,
+            "buy": 1287.88,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1695744000000,
+            "rebalance": 0,
+            "buy": 162.12,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1696867200000,
+            "rebalance": 0,
+            "buy": 1287.88,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1696953600000,
+            "rebalance": 0,
+            "buy": 162.12,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1697472000000,
+            "rebalance": 0,
+            "buy": 1284.39,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1697558400000,
+            "rebalance": 0,
+            "buy": 165.61,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1698076800000,
+            "rebalance": 0,
+            "buy": 1368.95,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1698163200000,
+            "rebalance": 0,
+            "buy": 181.05,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1698681600000,
+            "rebalance": 0,
+            "buy": 1304,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1698768000000,
+            "rebalance": 0,
+            "buy": 161,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1699286400000,
+            "rebalance": 0,
+            "buy": 1284.68,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1699372800000,
+            "rebalance": 0,
+            "buy": 165.32,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1700582400000,
+            "rebalance": 0,
+            "buy": 1245.14,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1700668800000,
+            "rebalance": 0,
+            "buy": 167.86,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1701100800000,
+            "rebalance": 0,
+            "buy": 1047.68,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1701187200000,
+            "rebalance": 0,
+            "buy": 142.32,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1701792000000,
+            "rebalance": 0,
+            "buy": 1315.95,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1701878400000,
+            "rebalance": 0,
+            "buy": 184.05,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1702396800000,
+            "rebalance": 0,
+            "buy": 1315.2,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1702483200000,
+            "rebalance": 0,
+            "buy": 184.8,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1702915200000,
+            "rebalance": 0,
+            "buy": 1351.13,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1703001600000,
+            "rebalance": 0,
+            "buy": 198.87,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1703692800000,
+            "rebalance": 0,
+            "buy": 1374.29,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1703779200000,
+            "rebalance": 0,
+            "buy": 205.71,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1704211200000,
+            "rebalance": 0,
+            "buy": 1371.12,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1704297600000,
+            "rebalance": 0,
+            "buy": 178.88,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1704729600000,
+            "rebalance": 0,
+            "buy": 1398.76,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1704816000000,
+            "rebalance": 0,
+            "buy": 211.24,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1705939200000,
+            "rebalance": 0,
+            "buy": 1462,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1706025600000,
+            "rebalance": 0,
+            "buy": 238,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1706544000000,
+            "rebalance": 0,
+            "buy": 1420.31,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1706630400000,
+            "rebalance": 0,
+            "buy": 229.69,
+            "redeem": 0
+        },
+        {
+            "txnDay": 1707148800000,
+            "rebalance": 1,
+            "buy": 0,
+            "redeem": 0
+        }
+    ]
+}
