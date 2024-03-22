@@ -11,4 +11,9 @@ To convert UNIX epoch timestamp in milliseconds to human readable time, use the 
 import pendulum
 pendulum.from_timestamp(1236472051807/1000.0,tz='America/Toronto')
 ```
+or 
+```
+import datetime
+datetime.datetime.fromtimestamp(1236472051807/1000.0)
+```
 Reference: https://stackoverflow.com/a/67067503/5555077

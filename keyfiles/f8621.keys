@@ -41,7 +41,7 @@ type_pfic_section_1296_excessive          FEFF00630031005F0038005B0030005D /Btn
 type_pfic_section_1296_excess_amount      FEFF00660031005F00320035005B0030005D /Tx
 elect_to_treat_as_qef                     FEFF00630031005F0039005B0030005D /Btn
 elect_to_extend_time_to_pay_tax           FEFF00630031005F00310030005B0030005D /Btn
-elect_toMark_to_market_stock              FEFF00630031005F00310031005B0030005D /Btn
+elect_to_mark_to_market_stock              FEFF00630031005F00310031005B0030005D /Btn
 deemed_sale_election                      FEFF00630031005F00310032005B0030005D /Btn
 deemed_dividend_election                  FEFF00630031005F00310033005B0030005D /Btn
 elect_to_recognize_gain_on_deemed_sale    FEFF00630031005F00310034005B0030005D /Btn
