@@ -68,8 +68,9 @@ def build_pfic_data_dict_for_2023(
 
         results_data_dict[pfic_name] = {
             "name_shareholder": shareholder_info[0],
-            "identify_number": shareholder_info[1],
+            "identifying_number": shareholder_info[1],
             "address": shareholder_info[2],
+            "calendar_year": "23",
             "city_state_country": shareholder_info[3],
             "is_individual": True,
             "name_foreign_corp_pfic_entity": row["基金英文"],
