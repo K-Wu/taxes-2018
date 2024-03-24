@@ -122,14 +122,34 @@ def build_pfic_data_dict_for_2023(
                 == results_data_dict[pfic_name]["10c_mark_to_market"]
             ), "The value for type_pfic_section_1296_excess_amount is not correct. Please check the data and try again."
         if row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023 > 200000:
+            print(
+                pfic_name,
+                ">200k",
+                row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023,
+            )
             results_data_dict[pfic_name]["value_if_more_than_200k"] = (
                 row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023
             )
         elif row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023 > 150000:
+            print(
+                pfic_name,
+                ">150k",
+                row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023,
+            )
             results_data_dict[pfic_name]["value_150k_to_200k"] = True
         elif row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023 > 100000:
+            print(
+                pfic_name,
+                ">100k",
+                row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023,
+            )
             results_data_dict[pfic_name]["value_100k_to_150k"] = True
         elif row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023 > 50000:
+            print(
+                pfic_name,
+                ">50k",
+                row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023,
+            )
             results_data_dict[pfic_name]["value_50k_to_100k"] = True
         else:
             results_data_dict[pfic_name]["value_0_to_50k"] = True

@@ -182,6 +182,11 @@ def get_overlay(basename, data_dict, keyfile):
     annotations = template_pdf.pages[0][ANNOT_KEY]
 
     value_to_readable = parse_keyfile(keyfile)
+    readables = set(value_to_readable.values())
+    # Assert all keys in data_dict are in readables
+    for k in data_dict:
+        if k not in readables:
+            raise ValueError(f"{k} not in value_to_readable")
 
     data = io.BytesIO()
     pdf = reportlab.pdfgen.canvas.Canvas(data)
