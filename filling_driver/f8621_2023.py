@@ -131,7 +131,7 @@ def build_pfic_data_dict_for_2023(
         elif row["2023年年底总资产（人民币元）"] / USD_TO_CNY_2023 > 50000:
             results_data_dict[pfic_name]["value_50k_to_100k"] = True
         else:
-            results_data_dict[pfic_name]["value_0k_to_50k"] = True
+            results_data_dict[pfic_name]["value_0_to_50k"] = True
     return results_data_dict
 
 
