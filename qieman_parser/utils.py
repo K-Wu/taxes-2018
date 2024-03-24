@@ -2,6 +2,7 @@ import os
 import git
 import datetime
 import json
+from typing import Any
 import pandas
 
 
@@ -44,9 +45,7 @@ def get_taxes_2018_root_path() -> str:
     idx_depth = 0
     while not is_taxes_2018_root_path(path):
         if idx_depth > max_depth:
-            raise ValueError(
-                f"Cannot find the root path with the specified repo_title: {repo_title}"
-            )
+            raise ValueError(f"Cannot find the root path of taxes_2018")
         path = os.path.dirname(path)
         idx_depth += 1
     return path
@@ -155,34 +154,52 @@ def load_trade_records(
     return trade_records
 
 
+def get_closest_date(date: str, dates: dict[str, Any]) -> str:
+    """Get the closest date in dates to date"""
+    date = datetime.datetime.strptime(date, "%Y-%m-%d")
+    closest_date = min(
+        dates,
+        key=lambda x: abs(date - datetime.datetime.strptime(x, "%Y-%m-%d")),
+    )
+    return closest_date
+
+
 def produce_transaction_history(
-    trade_records, nav_records, usd_to_cny: float
+    nav_records, trade_records, usd_to_cny: float
 ) -> pandas.DataFrame:
     """Produce a transaction history dataframe"""
     df = pandas.DataFrame(
         {
             "Date": [],
             "Transaction type": [],
+            "Cost per share (CNY)": [],
             "Amount (CNY)": [],
-            "NAV (CNY)": [],
+            "Share": [],
             "Amount (USD)": [],
-            "NAV (USD)": [],
         }
     )
     nav_map = {date: nav for date, nav in nav_records.items()}
     for date, trade_record in trade_records.items():
         if date not in nav_map:
-            raise ValueError(f"Date {date} not found in nav_map")
+            old_date = date
+            date = get_closest_date(date, nav_map.keys())
+            print(
+                "Warning date not found in nav_map, using closest date",
+                old_date,
+                date,
+            )
+            # raise ValueError(f"Date {date} not found in nav_map")
+
         nav = nav_map[date]
         if trade_record["buy"] > 0:
             df = df.append(
                 {
                     "Date": date,
-                    "Transaction type": "Buy",
+                    "Transaction type": "Purchase",
+                    "Cost per share (CNY)": nav,
+                    "Share": trade_record["buy"] / nav,
                     "Amount (CNY)": trade_record["buy"],
-                    "NAV (CNY)": nav,
                     "Amount (USD)": trade_record["buy"] / usd_to_cny,
-                    "NAV (USD)": nav / usd_to_cny,
                 },
                 ignore_index=True,
             )
@@ -190,11 +207,11 @@ def produce_transaction_history(
             df = df.append(
                 {
                     "Date": date,
-                    "Transaction type": "Redeem",
+                    "Transaction type": "Sale",
+                    "Cost per share (CNY)": nav,
+                    "Share": trade_record["redeem"] / nav,
                     "Amount (CNY)": trade_record["redeem"],
-                    "NAV (CNY)": nav,
                     "Amount (USD)": trade_record["redeem"] / usd_to_cny,
-                    "NAV (USD)": nav / usd_to_cny,
                 },
                 ignore_index=True,
             )
@@ -202,9 +219,10 @@ def produce_transaction_history(
             df = df.append(
                 {
                     "Date": date,
-                    "Transaction type": "Dividend reinvest",
+                    "Transaction type": "Reinvestment",
+                    "Cost per share (CNY)": nav,
+                    "Share": trade_record["dividend_reinvest"] / nav,
                     "Amount (CNY)": trade_record["dividend_reinvest"],
-                    "NAV (CNY)": nav,
                     "Amount (USD)": trade_record["dividend_reinvest"]
                     / usd_to_cny,
                 },
@@ -212,6 +230,7 @@ def produce_transaction_history(
             )
     return df
 
+
 def output_transaction_history(df: pandas.DataFrame, output_filename: str):
     """Output transaction history dataframe to a file"""
-    df.to_csv(output_filename, index=False)
+    df.to_csv(output_filename, index=False, float_format="%.2f")

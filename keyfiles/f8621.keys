@@ -16,8 +16,8 @@ is_estate                                 FEFF00630031005F0031005B0035005D /Btn
 are_assets_reported                       FEFF00630031005F0032005B0030005D /Btn
 elect_quarify_insurance_corp              FEFF00630031005F0033005B0030005D /Btn
 name_foreign_corp_pfic_entity             FEFF00660031005F00310030005B0030005D /Tx
-employer_identifier                       FEFF00660031005F00310031005B0030005D /Tx
-address_entity                            FEFF00660031005F00310032005B0030005D /Tx
+address_entity                            FEFF00660031005F00310031005B0030005D /Tx
+employer_identifier                       FEFF00660031005F00310032005B0030005D /Tx
 reference_id_number                       FEFF00660031005F00310033005B0030005D /Tx
 tax_year_entity                           FEFF00660031005F00310034005B0030005D /Tx
 beginning_month_entity                    FEFF00660031005F00310035005B0030005D /Tx
@@ -37,7 +37,7 @@ type_pfic_section_1291_excessive          FEFF00630031005F0036005B0030005D /Btn
 type_pfic_section_1291_excess_amount      FEFF00660031005F00320033005B0030005D /Tx
 type_pfic_section_1293_excessive          FEFF00630031005F0037005B0030005D /Btn
 type_pfic_section_1293_excess_amount      FEFF00660031005F00320034005B0030005D /Tx
-type_pfic_section_1296_excessive          FEFF00630031005F0038005B0030005D /Btn
+type_pfic_section_1296          FEFF00630031005F0038005B0030005D /Btn
 type_pfic_section_1296_excess_amount      FEFF00660031005F00320035005B0030005D /Tx
 elect_to_treat_as_qef                     FEFF00630031005F0039005B0030005D /Btn
 elect_to_extend_time_to_pay_tax           FEFF00630031005F00310030005B0030005D /Btn

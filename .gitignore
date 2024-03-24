@@ -3,4 +3,6 @@ venv
 *.pyc
 *~
 *.kundata.json
-filled/*.pdf
+filled/**/*.pdf
+filled/**/*.csv
+filled/**/*.xlsx
