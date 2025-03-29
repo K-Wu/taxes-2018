@@ -2,7 +2,7 @@ import os
 import git
 import datetime
 import json
-from typing import Any
+from typing import Any, Optional
 import pandas
 
 
@@ -103,17 +103,8 @@ def load_nav_by_ca(filename: str, tax_year: int) -> dict[str, float]:
 
 
 def load_trade_records(
-    dividend_filename: str, trade_series_filename: str, tax_year: int
+    trade_series_filename: str, tax_year: int, dividend_filename: Optional[str] = None
 ) -> dict[str, dict[str, float]]:
-    dividend = json.load(
-        open(
-            os.path.join(
-                get_taxes_2018_root_path(),
-                dividend_filename,
-            ),
-            encoding="utf8",
-        )
-    )
     trade_series = json.load(
         open(
             os.path.join(
@@ -147,10 +138,21 @@ def load_trade_records(
             "buy": float(trade_record["buy"]),
             "redeem": float(trade_record["redeem"]),
         }
-    for date in dividend:
-        if date not in trade_records:
-            trade_records[date] = {"buy": 0, "redeem": 0}
-        trade_records[date]["dividend_reinvest"] = float(dividend[date]["CNY"])
+    
+    if dividend_filename is not None:
+        dividend = json.load(
+            open(
+                os.path.join(
+                    get_taxes_2018_root_path(),
+                    dividend_filename,
+                ),
+                encoding="utf8",
+            )
+        )
+        for date in dividend:
+            if date not in trade_records:
+                trade_records[date] = {"buy": 0, "redeem": 0}
+            trade_records[date]["dividend_reinvest"] = float(dividend[date]["CNY"])
     return trade_records
 
 
@@ -192,7 +194,7 @@ def produce_transaction_history(
 
         nav = nav_map[date]
         if trade_record["buy"] > 0:
-            df = df.append(
+            df = df._append(
                 {
                     "Date": date,
                     "Transaction type": "Purchase",
@@ -204,7 +206,7 @@ def produce_transaction_history(
                 ignore_index=True,
             )
         if trade_record["redeem"] > 0:
-            df = df.append(
+            df = df._append(
                 {
                     "Date": date,
                     "Transaction type": "Sale",
@@ -216,7 +218,7 @@ def produce_transaction_history(
                 ignore_index=True,
             )
         if trade_record["dividend_reinvest"] > 0:
-            df = df.append(
+            df = df._append(
                 {
                     "Date": date,
                     "Transaction type": "Reinvestment",
