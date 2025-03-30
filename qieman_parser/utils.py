@@ -63,7 +63,7 @@ def convert_unix_millis_to_datetime(millis: int) -> datetime:
 def load_shareholder_info() -> list[str]:
     """Returns name_shareholder, identify_number, address, city_state_country for f8621"""
     with open(
-        "C:/Users/kunw/OneDrive - KUNW-MSFT/UIUCBox/2024 Spring/TaxReturn/KunWuShareholderInfo.txt"
+        "C:/Users/tonyw/OneDrive - MSFT/2025 Spring Tax Return/KunWuShareholderInfo.txt"
     ) as fd:
         lines = fd.readlines()
     lines = [line.strip() for line in lines]

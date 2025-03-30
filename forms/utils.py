@@ -313,7 +313,12 @@ def get_overlay(basename, data_dict, keyfile):
                                     text=value_line,
                                 )
                         else:
-                            pdf.setFont("Courier", 12)
+                            if len(value) > 51:
+                                pdf.setFont("Courier", 8)
+                            elif len(value) > 42:
+                                pdf.setFont("Courier", 10)
+                            else:
+                                pdf.setFont("Courier", 12)
                             pdf.drawString(x=left, y=bottom, text=value)
         pdf.showPage()
 

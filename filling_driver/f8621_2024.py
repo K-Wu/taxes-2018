@@ -80,64 +80,24 @@ def build_pfic_data_dict_for_2024(
             ] = row["购入时间（2024年税表）"].strftime("%Y-%m-%d")
 
         
-        if (
-            row["2024年MtM加总至ordinary income的收益" + currency_suffix]
-            / usd_to_currency_exchange_rate
-            > 0
-        ):
-            results_data_dict[pfic_name][
-                "type_pfic_section_1296_excess_amount"
-            ] = "{:.2f}".format(
-                row["2024年MtM加总至ordinary income的收益" + currency_suffix]
-                / usd_to_currency_exchange_rate
-            )
-            assert (
-                results_data_dict[pfic_name][
-                    "type_pfic_section_1296_excess_amount"
-                ]
-                == results_data_dict[pfic_name]["10c_mark_to_market"]
-            ), "The value for type_pfic_section_1296_excess_amount is not correct. Please check the data and try again."
 
-        # Fill in Line 4: Value of shares held at the end of the tax year
-        if results_data_dict[pfic_name]["10a_mark_to_market"] > 200000:
-            print(
-                pfic_name,
-                ">200k",
-                results_data_dict[pfic_name]["10a_mark_to_market"],
-            )
-            results_data_dict[pfic_name]["value_if_more_than_200k"] = True
-        elif results_data_dict[pfic_name]["10a_mark_to_market"] > 150000:
-            print(
-                pfic_name,
-                ">150k",
-                results_data_dict[pfic_name]["10a_mark_to_market"],
-            )
-            results_data_dict[pfic_name]["value_150k_to_200k"] = True
-        elif results_data_dict[pfic_name]["10a_mark_to_market"] > 100000:
-            print(
-                pfic_name,
-                ">100k",
-                results_data_dict[pfic_name]["10a_mark_to_market"],
-            )
-            results_data_dict[pfic_name]["value_100k_to_150k"] = True
-        elif results_data_dict[pfic_name]["10a_mark_to_market"] > 50000:
-            print(
-                pfic_name,
-                ">50k",
-                results_data_dict[pfic_name]["10a_mark_to_market"],
-            )
-            results_data_dict[pfic_name]["value_50k_to_100k"] = True
-        else:
-            results_data_dict[pfic_name]["value_0_to_50k"] = True
 
-        # If there is a sale, fill in Line 13--14 instaed of Line 10--12
-        if results_data_dict[pfic_name]["number_of_shares_held_at_end_year"] == 0:
+        # If there is a sale, fill in Line 13--14 instaed of Line 10--12.
+        # All sales in 2024 lead to sale of all shares.
+        if number_of_shares_held_at_end_year == 0:
+            fair_market_value = (row["2023年年底总资产" + currency_suffix] + row["清仓时相比2023年底收益" + currency_suffix]) / usd_to_currency_exchange_rate
+            # Include 2023 gain in the adjusted basis. If there is a loss, the adjusted basis is the original basis.
+            if row["2023年收益"+currency_suffix] <= 0:
+                adjusted_basis = (row["2023年年底总资产" + currency_suffix] - row["2023年收益" + currency_suffix] ) / usd_to_currency_exchange_rate
+            else:
+                adjusted_basis = row["2023年年底总资产" + currency_suffix] / usd_to_currency_exchange_rate
+            
             results_data_dict[pfic_name].update({ 
                 "13a_mark_to_market": "{:.2f}".format( # fair market value
-                    row["2024年底总资产" + currency_suffix] / usd_to_currency_exchange_rate
+                    fair_market_value
                 ),
                 "13b_mark_to_market": "{:.2f}".format( # adjusted basis
-                    row["2024年底cost basis" + currency_suffix] / usd_to_currency_exchange_rate
+                    adjusted_basis
                 ),
                 "13c_mark_to_market": "{:.2f}".format( # gain / loss before allowance
                     row["2024年收益" + currency_suffix] / usd_to_currency_exchange_rate
@@ -145,22 +105,54 @@ def build_pfic_data_dict_for_2024(
                 "14a_mark_to_market": "0.", # unreversed inclusions
                 "14b_mark_to_market": "0.", # allowed loss
             })
-            if results_data_dict[pfic_name]["13c_mark_to_market"] < 0:
+            results_data_dict[pfic_name]["13c_mark_to_market"] = "{:.2f}".format(float(results_data_dict[pfic_name]["13a_mark_to_market"]) - float(results_data_dict[pfic_name]["13b_mark_to_market"]))
+            if row["2024年收益" + currency_suffix] / usd_to_currency_exchange_rate < 0:
                 results_data_dict[pfic_name]["14c_mark_to_market"] = results_data_dict[pfic_name]["13c_mark_to_market"] # unallowed loss (capital loss)
+            if row["2024年收益" + currency_suffix] / usd_to_currency_exchange_rate > 0:
+                results_data_dict[pfic_name][
+                    "type_pfic_section_1296_excess_amount"
+                ] = results_data_dict[pfic_name]["13c_mark_to_market"]
         else:
+            fair_market_value = row["2024年底总资产" + currency_suffix] / usd_to_currency_exchange_rate
             results_data_dict[pfic_name].update({ 
                 "10a_mark_to_market": "{:.2f}".format( # fair market value
-                    row["2024年底总资产" + currency_suffix] / usd_to_currency_exchange_rate
+                    fair_market_value
                 ),
-                "10b_mark_to_market": "{:.2f}".format( # adjusted basis
-                    row["2024年底cost basis" + currency_suffix] / usd_to_currency_exchange_rate
-                ),
+                "10b_mark_to_market": "{:.2f}".format(row["2024年底adjusted basis" + currency_suffix] / usd_to_currency_exchange_rate), # adjusted basis
                 "10c_mark_to_market": "{:.2f}".format( # gain / loss before allowance
                     row["2024年收益" + currency_suffix] / usd_to_currency_exchange_rate
                 ),
                 "11_mark_to_market": "0.", # unreversed inclusions
                 "12_mark_to_market": "0.", # allowed loss
             })
+            if (
+                row["2024年MtM加总至ordinary income的收益" + currency_suffix]
+                / usd_to_currency_exchange_rate
+                > 0
+            ):
+                results_data_dict[pfic_name][
+                    "type_pfic_section_1296_excess_amount"
+                ] = "{:.2f}".format(
+                    row["2024年MtM加总至ordinary income的收益" + currency_suffix]
+                    / usd_to_currency_exchange_rate
+                )
+
+        
+        # Fill in Line 4: Value of shares held at the end of the tax year
+        if fair_market_value > 200000:
+            print(pfic_name, ">200k", fair_market_value)
+            results_data_dict[pfic_name]["value_if_more_than_200k"] = True
+        elif fair_market_value > 150000:
+            print(pfic_name, ">150k", fair_market_value)
+            results_data_dict[pfic_name]["value_150k_to_200k"] = True
+        elif fair_market_value > 100000:
+            print(pfic_name, ">100k", fair_market_value)
+            results_data_dict[pfic_name]["value_100k_to_150k"] = True
+        elif fair_market_value > 50000:
+            print(pfic_name, ">50k", fair_market_value)
+            results_data_dict[pfic_name]["value_50k_to_100k"] = True
+        else:
+            results_data_dict[pfic_name]["value_0_to_50k"] = True
     return results_data_dict
 
 
@@ -170,17 +162,18 @@ if __name__ == "__main__":
 
     # Handle CNY mutual funds
     df = pandas.read_excel(
-        "C:/Users/kunw/OneDrive - KUNW-MSFT/2025 Spring Tax Return/ForeignAccountDetails.xlsx",
+        "C:/Users/tonyw/OneDrive - MSFT/2025 Spring Tax Return/ForeignAccountDetails.xlsx",
         "人民币基金详情",
     )
-    excel_path = os.path.join("C:/Users/kunw/OneDrive - KUNW-MSFT/2025 Spring Tax Return", "ForeignAccountDetails.xlsx")
-    exchange_rate_df = pandas.read_excel(excel_path, sheet_name="人民币基金详情")
-    usd_to_currency_exchange_rate = float(exchange_rate_df.iloc[0, excel_path.find("X75")])  # Read from cell X75
+    # excel_path = os.path.join("C:/Users/tonyw/OneDrive - KUNW-MSFT/2025 Spring Tax Return", "ForeignAccountDetails.xlsx")
+    # exchange_rate_df = pandas.read_excel(excel_path, sheet_name="人民币基金详情")
+    # usd_to_currency_exchange_rate = float(exchange_rate_df.iloc[0, excel_path.find("X75")])  # Read from cell X75
+    usd_to_currency_exchange_rate = 7.104
     data_dict: dict[str, dict[str, Any]] = build_pfic_data_dict_for_2024(df, 66, "（人民币元）", usd_to_currency_exchange_rate)
 
     # Handle USD mutual funds
     df_usd = pandas.read_excel(
-        "C:/Users/kunw/OneDrive - KUNW-MSFT/2025 Spring Tax Return/ForeignAccountDetails.xlsx",
+        "C:/Users/tonyw/OneDrive - MSFT/2025 Spring Tax Return/ForeignAccountDetails.xlsx",
         "美元基金详情",
     )
     data_usd_dict = build_pfic_data_dict_for_2024(df_usd, 1, "(USD)", 1.0)
