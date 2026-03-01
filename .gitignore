@@ -6,3 +6,4 @@ venv
 filled/**/*.pdf
 filled/**/*.csv
 filled/**/*.xlsx
+filled/**/*.docx
