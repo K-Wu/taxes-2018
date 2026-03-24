@@ -1,5 +1,7 @@
 import os
 import re
+import sys
+from io import BytesIO
 from PyPDF2 import PdfReader, PdfWriter
 from typing import List, Tuple, Dict, Any
 
@@ -56,9 +58,22 @@ def compute_blank_insertions(
     return insertions
 
 
-def add_blank_pages(input_path: str, blank_page_path: str, output_path: str) -> None:
+def make_blank_page(width: float, height: float) -> PdfReader:
+    """Create an in-memory blank PDF page with the given dimensions."""
+    buf = BytesIO()
+    w = PdfWriter()
+    w.add_blank_page(width=width, height=height)
+    w.write(buf)
+    buf.seek(0)
+    return PdfReader(buf)
+
+
+def add_blank_pages(input_path: str, output_path: str) -> None:
     reader = PdfReader(input_path)
-    blank_reader = PdfReader(blank_page_path)
+    first = reader.pages[0]
+    blank_reader = make_blank_page(
+        float(first.mediabox.width), float(first.mediabox.height)
+    )
     blank_page = blank_reader.pages[0]
     total_pages = len(reader.pages)
     print(f"Input PDF has {total_pages} pages")
@@ -91,12 +106,12 @@ def add_blank_pages(input_path: str, blank_page_path: str, output_path: str) -> 
 
 
 def main():
-    input_pdf = r"C:\Users\kunw\OneDrive - KUNW-MSFT\2025Tax\819736313_TaxReturnFromTTO_Filing.pdf"
-    blank_page_pdf = r"C:\Users\kunw\OneDrive - KUNW-MSFT\2025 Spring Tax Return\intentional_blank.pdf"
-    input_dir = os.path.dirname(input_pdf)
-    input_name = os.path.splitext(os.path.basename(input_pdf))[0]
-    output_pdf = os.path.join(input_dir, f"{input_name}_with_blanks.pdf")
-    add_blank_pages(input_pdf, blank_page_pdf, output_pdf)
+    if len(sys.argv) != 3:
+        print(f"Usage: {sys.argv[0]} <input.pdf> <output.pdf>")
+        sys.exit(1)
+    input_pdf = sys.argv[1]
+    output_pdf = sys.argv[2]
+    add_blank_pages(input_pdf, output_pdf)
     print(f"Output saved to:\n{output_pdf}")
 
 
